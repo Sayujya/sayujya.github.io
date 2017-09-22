@@ -1,7 +1,10 @@
+*
+{
+    margin: 0px;
+}
 html
 {
     width: 100%;
-    color: #222222;
 }
 
 p
@@ -55,6 +58,7 @@ body
     background-image:url('../img/backgrounds/bg_cartographer.png');
     background-attachment:fixed;
     position: relative;
+    height: 100%;
 }
 
 .outer {
@@ -70,16 +74,6 @@ body
 }
 
 .inner {
-}
-
-.footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  background-color: #313335;
 }
 
 div#left {
@@ -300,17 +294,21 @@ a.aside-open i
 {
     color: rgba( 255, 255, 255, 0.5 );
 }
-/**
- * Footer
- */
-footer#footer 
-{
-    color: #666666;
-    font-size: 14px;
-    border-top: 1px solid #eeeeee;
-    width: 100%;
-	padding: 100px;
-	float: left;
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: orange;
 }
 
 #sharing 
