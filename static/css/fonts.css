@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Brion Regular';
+  src: url('../fonts/BrionRegular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Brion Bold';
+  src: url('../fonts/BrionBold.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Brion Light';
+  src: url('../fonts/BrionLight.ttf')  format('truetype');
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: "Brion Regular", serif;
+}
