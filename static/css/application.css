@@ -1,42 +1,22 @@
-*
-{
-    margin: 0px;
-}
 html
 {
     width: 100%;
 }
 
-p
-{ 
-    font-family: 'Brion Regular', Verdana, Tahoma;
-    color: #FFFFFF;
-}
-
-text
+@media all and (max-width: 1023px) 
 {
-	font-family: 'Brion Light', Verdana, Tahoma;
-	color: #FFFFFF;
-}
-
-@media all and (max-width: 1023px) {
-    #links-for-med-and-up {
-        display: none;
+    .med-and-up-only {
+        display: none !important;
     }
 }
 
-@media all and (min-width: 1024px) {
-    #links-for-mobile {
-        display: none;
+@media all and (min-width: 1024px) 
+{
+    .mobile-only {
+        display: none !important;
     }
 }
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -53,12 +33,32 @@ text
   }
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 body
 {
     background-image:url('../img/backgrounds/bg_cartographer.png');
     background-attachment:fixed;
     position: relative;
     height: 100%;
+}
+
+p
+{ 
+    font-family: 'Brion Regular', Verdana, Tahoma;
+    color: #FFFFFF;
+}
+
+text
+{
+    font-family: 'Brion Light', Verdana, Tahoma;
+    color: #FFFFFF;
 }
 
 .outer {
@@ -76,6 +76,16 @@ body
 .inner {
 }
 
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color: #313335;
+}
+
 div#left {
     width: 50%;
     float: left;
@@ -83,12 +93,6 @@ div#left {
 
 div#right {
     margin-left: 50%;
-}
-
-blockquote 
-{
-	font-family: 'Brion Regular', Verdana, Tahoma;
-	color: #B4C4D0;
 }
 
 a
@@ -111,7 +115,7 @@ a:active
 
 h1
 {
-	font-family: "Brion Bdold", Verdana, Tahoma;
+	font-family: "Brion Bold", Verdana, Tahoma;
     color: #FFFFFF;
 }
 
@@ -122,201 +126,4 @@ h2, h3, h4, h5, h6
 	font-family: "Brion Regular", Verdana, Tahoma;
     font-weight: 400;
     color: #FFFFFF;
-}
-/**
- * Section
- */
-.section 
-{
-	width: 100%;
-	padding: 150px 0 100px 0;
-	float: left;
-}
-
-nav#primary 
-{
-    background: #32353a;
-    width: 100%;
-    padding: 15px 0;
-    position: fixed;
-    z-index: 999;
-    float: left;
-}
-
-nav#primary ul 
-{
-	float: left;
-}
-
-nav#primary ul li 
-{
-	margin-left: 25px;
-	display: inline;
-}
-
-nav#primary ul li a 
-{
-	font-family: "Brion Regular", Verdana, Tahoma;
-	font-size: 14px;
-	font-weight: 400;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-nav#primary ul li a:hover 
-{
-    color: rgba( 255, 255, 255, 0.5 );
-}
-/**
- * Header
- */
-#header 
-{
-	background: #60bfb1;
-	width: 100%;
-	padding: 150px 0 50px 0;
-    float: left;
-}
-
-#header h2
-{
-	color: #ffffff;
-	text-shadow: 0 2px 0 rgba( 0, 0, 0, 0.03 );
-}
-
-#header a.button
-{
-	background: #262626;
-	background: rgba( 0, 0, 0, 0.2 );
-}
-
-#header a:hover.button
-{
-    background: #ffffff;
-    color: #111111!important;
-}
-/**
- * Icon styles for demo
- */
-ul.icons li 
-{
-    width: 100px;
-    height: 100px;
-    background: #f9f9f9;
-    padding: 25px 15px 15px 15px;
-    margin: 1px;
-    font-size: 11px;
-    text-align: center;
-    float: left;
-    border-radius: 2px;
-    -webkit-transition: 250ms linear all;
-    -moz-transition: 250ms linear all;
-    transition: 250ms linear all;
-}
-
-ul.icons li:hover 
-{
-    background: #60bfb1;
-    color: #ffffff;
-}
-
-ul.icons li i 
-{
-    font-size: 14px!important;
-    margin-bottom: 5px;
-    display: block;
-}
-/**
- * Aside & Toggle
- */
-a.aside-open
-{
-	margin: 0;
-	padding: 0;
-	float: right;
-}
-
-a.aside-open i
-{
-	color: #ffffff;
-}
-
-#main,
-#aside
-{
-	-webkit-transition: 150ms linear all;
-	-moz-transition: 150ms linear all;
-	transition: 150ms linear all; 
-}
-
-#aside
-{
-	overflow-y: scroll;
-    position: fixed;
-    right: -400px;
-    top: 0;
-    bottom: 0;
-    z-index: 9995;
-    background: #25282c;
-}
-
-#aside::-webkit-scrollbar
-{
-	background: #262626!important;
-	color: #262626!important;
-}
-
-#aside::-webkit-scrollbar-thumb
-{
-	background: #262626!important;
-	color: #262626!important;
-}
-
-#aside.toggled
-{
-	right: 0;
-}
-
-#aside li
-{
-	display: block;
-}
-
-#aside li a
-{
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 14px;
-	margin-bottom: 15px;
-}
-
-#aside li a:hover 
-{
-    color: rgba( 255, 255, 255, 0.5 );
-}
-
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px; 
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-.site-footer, .page-wrap:after {
-  height: 142px; 
-}
-.site-footer {
-  background: orange;
-}
-
-#sharing 
-{
-    margin-bottom: 25px;
-}
-
-#sharing li 
-{
-    display: inline;
 }
