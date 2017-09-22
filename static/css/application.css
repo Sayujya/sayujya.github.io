@@ -20,6 +20,11 @@ text
     #links-for-med-and-up {
         display: none;
     }
+    
+    #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+    }
 }
 
 @media all and (min-width: 1024px) {
