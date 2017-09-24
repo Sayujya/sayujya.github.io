@@ -117,6 +117,12 @@ h1
 {
 	font-family: "Brion Bold", Verdana, Tahoma;
     color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+h2
+{
+    letter-spacing: 1px;
 }
 
 h2, h3, h4, h5, h6 

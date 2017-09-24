@@ -51,3 +51,6 @@ i.left{
 .icon-linkedin:before {
   content: "\e905";
 }
+.icon-home:before {
+  content: "\e9ca";
+}
