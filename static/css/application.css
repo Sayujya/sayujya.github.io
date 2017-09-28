@@ -45,18 +45,9 @@ body
 {
     background-image:url('../img/backgrounds/bg_cartographer.png');
     background-attachment:fixed;
-    background-color: #333333,
+    background-color: #242424,
     position: relative;
     height: 100%;
-}
-
-body:before{
-    display: block;
-    content: " ";
-    height:20px;
-    top: 0;
-    position:-webkit-sticky;
-    position: sticky;
 }
 
 p
