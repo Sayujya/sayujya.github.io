@@ -6,10 +6,7 @@ self.addEventListener('install', function(e) {
 			return cache.addAll([
 				'/',
 				'./index.html',
-				'./static/css/pure-min.css',
-				'./static/css/icons.css',
-				'./static/css/grids-responsive-min.css',
-				'./static/css/fonts.css',
+				'./static/css/grids.min.css',
 				'./static/css/application.css',
 				'./static/fonts/icons.woff',
 				'./static/fonts/icons.ttf',
