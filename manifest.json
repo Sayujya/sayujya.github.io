@@ -1,0 +1,16 @@
+{
+  "short_name": "Sai Rijal",
+  "name": "Sai Rijal",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "orientation": "portrait",
+  "theme_color": "#313335",
+  "background_color": "#313335",
+  "display": "standalone"
+}
