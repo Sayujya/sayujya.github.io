@@ -6,7 +6,7 @@ self.addEventListener('install', function(e) {
 			return cache.addAll([
 				'/',
 				'./index.html',
-				'./static/img/backgrounds/bg_cartographer.png',
+				'./static/',
 				'./resume.pdf'
 				]);
 		})
