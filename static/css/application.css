@@ -45,6 +45,7 @@ body
 {
     background-image:url('../img/backgrounds/bg_cartographer.png');
     background-attachment:fixed;
+    background-color: #242424,
     position: relative;
     height: 100%;
 }
