@@ -7,7 +7,7 @@ self.addEventListener('install', function(e) {
         '/',
         './index.html',
         './static/css/grids.min.css',
-        './static/css/application.css',
+        './static/css/application.min.css',
         './static/fonts/icons.woff',
         './static/fonts/icons.ttf',
         './static/fonts/icons.svg',
@@ -15,7 +15,6 @@ self.addEventListener('install', function(e) {
         './static/fonts/BrionRegular.ttf',
         './static/fonts/BrionLight.ttf',
         './static/fonts/BrionBold.ttf',
-        './static/img/backgrounds/bg_cartographer.png',
         './resume.pdf'
       ]);
     })
