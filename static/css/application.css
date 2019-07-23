@@ -45,11 +45,11 @@ html
 
 body
 {
-    background-image:url('../img/backgrounds/bg_cartographer.webp');
-    background-attachment:fixed;
-    background-color: #242424,
-    position: relative;
-    height: 100%;
+    /* background-image:url('../img/backgrounds/bg_cartographer.webp'); */
+    /* background-attachment:fixed; */
+    background-color: #3B5C6D;
+    /* position: relative; */
+    /* height: 100%; */
 }
 
 p
@@ -86,7 +86,7 @@ text
   left: 0;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
-  background-color: #313335;
+  background-color: #2B4350;
 }
 
 div#left {
@@ -101,7 +101,7 @@ div#right {
 a
 {
   font-family: "Brion Regular", Verdana, Tahoma;
-	color: #92d3c8;
+	color: #E3E3E3;
 	text-decoration: underline;
 }
 
