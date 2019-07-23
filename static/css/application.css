@@ -101,7 +101,8 @@ div#right {
 a
 {
   font-family: "Brion Regular", Verdana, Tahoma;
-	color: #E3E3E3;
+  color: #E3E3E3;
+  background-color: #3B5C6D;
 	text-decoration: underline;
 }
 
