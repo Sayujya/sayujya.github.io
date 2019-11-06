@@ -74,7 +74,7 @@ text
   position: absolute;
   height: 100%;
   width: 100%;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.1rem;
 }
 
 .middle {
@@ -90,7 +90,7 @@ text
   right: 0;
   bottom: 0;
   left: 0;
-  height: 1.5rem;
+  height: 1.1rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   background-color: #2B4350;
