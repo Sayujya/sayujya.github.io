@@ -64,11 +64,17 @@ text
   color: #FFFFFF;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 .outer {
   display: table;
   position: absolute;
   height: 100%;
   width: 100%;
+  padding-bottom: 2.5rem;
 }
 
 .middle {
@@ -84,6 +90,7 @@ text
   right: 0;
   bottom: 0;
   left: 0;
+  height: 2.5rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   background-color: #2B4350;
