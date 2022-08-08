@@ -64,6 +64,12 @@ text
   color: #FFFFFF;
 }
 
+.right-text
+{
+  text-align: right;
+  padding-right: 0.25rem;
+}
+
 .page-container {
   position: relative;
   min-height: 100vh;
@@ -154,7 +160,6 @@ td
 	font-family: "Brion Regular", Verdana, Tahoma;
   font-weight: 400;
   letter-spacing: 1px;
-  text-align: center;
   color: #FFFFFF;
 }
 
